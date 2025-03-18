@@ -1,0 +1,5 @@
+Line 1: This is the first line of the file. 2
+Line 2: Python makes file handling easy. 2
+Line 3: Understanding file paths is crucial. 2
+Line 4: Context managers ensure resource safety. 2
+Line 5: End of the demo text file. 2
