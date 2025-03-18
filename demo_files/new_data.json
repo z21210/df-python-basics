@@ -1,1 +1,18 @@
-{"name": "Alice", "age": 24, "address": {"street": "123 Fake St", "city": "Springfield"}}
+[
+    {
+        "name": "Alice",
+        "age": 24,
+        "address": {
+            "street": "123 Fake St",
+            "city": "Springfield"
+        }
+    },
+    {
+        "name": "Bob",
+        "age": 32,
+        "address": {
+            "street": "125 Fake St",
+            "city": "Springfield"
+        }
+    }
+]

@@ -43,5 +43,23 @@ else:
 
 # Make a new directory
 
-Path.mkdir("new_directory", )
+new_directory_path = current_dir / "new_directory"
 
+new_directory_path.mkdir(exist_ok=True)
+# prevent any errors if the directory already exists
+
+# Opening a file
+opened_file = open(file_path)
+# print(opened_file)
+
+with open(file_path) as file:
+    # Do stuff with the file contents
+    print(file.read())
+
+# context manager automatically closes the file
+# when the block of code is exited - no more reads allowed
+# print(file.read())
+opened_file = open(file_path)
+print(opened_file.read())
+opened_file.close()
+# print(opened_file.read())
