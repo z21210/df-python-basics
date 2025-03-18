@@ -12,7 +12,7 @@ This will cause an Exception if the file is not found
 Which means the script stops executing!
 """
 
-file = None # Initialise the file variable
+file = None  # Initialise the file variable
 
 try:
     # break_time = False
@@ -28,7 +28,7 @@ except OSError as e:
 except Exception as e:
     print(f'Exception: {e}')
 finally:
-    if file: # Check if files exists and is open
+    if file:  # Check if files exists and is open
         file.close()
         print("File closed")
     print("Continuing the program...")

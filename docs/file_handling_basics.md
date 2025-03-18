@@ -295,8 +295,10 @@ with open("test.txt") as f:
  2. Handle potential `FileNotFoundError` and `PermissionError` exceptions.
  3. Use a *context manager* to ensure the file is properly closed after reading.
 
-Key Points for Learners
+---
 
- • try:except blocks help handle errors and prevent your program from crashing unexpectedly.
- • Context managers (using with statements) automatically manage resource cleanup, ensuring files are properly closed after usage.
- • finally block ensures that cleanup actions, like closing files, are always executed, even if an error occurs.
+### Key Points for Learners
+
+- `try:except` blocks help handle errors and prevent your program from crashing unexpectedly.
+- Context managers (using with statements) automatically manage resource clean up, ensuring files are properly closed after usage.
+- `finally` block ensures that clean up actions, like closing files, are always executed, even if an error occurs.
